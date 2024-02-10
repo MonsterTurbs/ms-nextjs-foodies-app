@@ -1,0 +1,15 @@
+npm run dev 
+    - to run the development server project
+
+npm install better-sqlite3
+    - And this is a package that will allow us to work with a SQL light database.
+    - We'll use a SQL light database here because it's an amazing SQL database that can be used locally without setting up any extra database server or any other complex setup needed.
+
+node .\initdb.js
+    -We have this init data function, which is then executed to write some data into that database. 
+    -We simply writing all those dummy meals into the database. 
+    -And this prepare function, which you see here, is provided by that better SQL light free package. 
+    -So that's how We preparing the database. 
+    -And with that done, once you run this initdb.js file, you should have some meals available. 
+    -So here in my root project folder, We'll execute this initdb.js file with node and it should work. 
+    -And you should have such a meals DB file thereafter.
